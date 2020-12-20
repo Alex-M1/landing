@@ -4,14 +4,13 @@ const burgerMenu = qs('.burger-nav')
 const burgerLinks = qsa('.burger-nav a')
 
 const closeMenu = (menu, button) => {
-    burgerMenu.style.right = -200 + 'px'
-    setTimeout(() => burgerBtn.style.display = 'block', 800)
+    menu.style.right = -200 + 'px'
+    setTimeout(() => button.style.display = 'block', 800)
 }
 
 burgerBtn.addEventListener('click', () => {
     burgerMenu.style.right = 10 + 'px'
     burgerBtn.style.display = 'none'
-
 })
 
 closeBtn.addEventListener('click', () => closeMenu(burgerMenu, burgerBtn))
