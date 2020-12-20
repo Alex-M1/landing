@@ -1,0 +1,38 @@
+.our-story {
+    padding: 70px 0;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+.our-story img{
+    align-self: center;
+    justify-self: center;
+}
+.our-story__content h2{
+    margin-bottom: 25px;
+}
+.our-story__content p{
+    margin-bottom: 30px;
+    line-height: 22px;
+}
+
+@media (max-width: 576px){
+    .our-story {
+        grid-template-columns:1fr;
+    }
+    .our-story img{
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    .our-story__content h2,.our-story__content button{
+        align-self: center;
+    }
+
+    .our-story__content{
+        text-align: center;
+    }
+
+}
+
+
+

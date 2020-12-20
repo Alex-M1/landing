@@ -1,0 +1,34 @@
+.our-works__header{
+    padding: 65px 0;
+}
+.our-works__header a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.our-work__block{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.our-work__item{
+    height: 200px;
+}
+
+
+.load-more{
+    padding: 70px 0;
+}
+
+@media (max-width: 576px){
+    .our-work__item{
+        height: 96px;
+    }
+
+}
+@media (max-width: 375px){
+    .our-works__header{
+       justify-content: space-evenly;
+    }
+
+}

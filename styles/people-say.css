@@ -1,0 +1,76 @@
+.people-say-bg{
+    background: url(../img/people-say.jpg);
+    background-size: cover;
+    padding: 65px 0;
+}
+
+.people-say{
+  text-align: center;
+}
+
+.review{
+  margin: 42px 0;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 780px;
+}
+
+.user-carousel{
+  margin-top: 40px;
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+}
+
+.arrow{
+  position: relative;
+  margin: 0 20px;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+.arrow__item{
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background: #fff;
+}
+
+.arrow__item_top{
+  top: 12px;
+  transform: rotate(-45deg);
+}
+
+.arrow__item_bottom{
+  transform: rotate(45deg);
+  bottom:13px;
+}
+.reverse{
+  transform: scale(-1,1);
+}
+
+.user-photo{
+  width: 45px;
+  height: 45px;
+  margin: 0 7px;
+}
+.user-active{
+  width: 70px;
+  height: 70px;
+}
+
+@media (max-width: 375px){
+  .user-photo{
+    width: 30px;
+    height: 30px;
+    margin: 0 7px;
+  }
+  .user-active{
+    width: 45px;
+    height: 45px;
+  }
+}

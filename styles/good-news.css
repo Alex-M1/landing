@@ -1,0 +1,74 @@
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 17%;
+    padding: 70px 0;
+}
+.site-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+
+}
+.site-form input{
+    height: 45px;
+}
+
+.site-form input,textarea{
+    margin-bottom: 21px;
+}
+.site-form textarea{
+    resize: none;
+    height: 200px;
+}
+.brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15%;
+    margin-top: 25px;
+    grid-auto-rows: 95px;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .contact{
+        column-gap: 5%;
+    }
+    .brands{
+        column-gap: 5%;
+    }
+}
+
+@media (max-width: 576px){
+    .contact{
+        grid-template-columns: 1fr;
+    }
+
+    .happy-clients{
+        margin-top: 30px;
+    }
+
+    .brands{
+        grid-template-columns: repeat(5,1fr);
+    }
+    
+    .brands img{
+        width: 80px;
+    }
+
+    .good-news h2,.happy-clients h2{
+        align-self: center;
+    }
+    
+    .site-form button{
+        align-self: center;
+    }
+}
+
+@media (max-width: 425px){
+    .brands{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;;
+    }
+
+}

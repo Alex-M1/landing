@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+/* 
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 5px;
+} */
+
+h1,h2,.h-description{
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+}
+
+.text-up{
+    text-transform: uppercase;
+}
+
+.button{
+    background: none;
+    color: #0dd5cf;
+    border: 1px solid #0dd5cf;
+    font-size: 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    height: 40px;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.small-button{
+    width: 120px;
+}
+
+.big-button{
+    width: 140px;
+}
+
+.color-violet{
+    color:#413d4b;
+}
+
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.h-description{
+    font-weight: 400;
+    margin: 15px 0 20px 0;
+}
+
+.h-divider{
+    height: 2px;
+    width: 50px;
+    background: #c6c4c9;
+    margin-bottom: 45px;
+}
+.text-center{
+    text-align: center;
+}
+
+.light{
+    color: #f3f3f3;
+    font-weight: 100;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+@media (max-width: 576px){
+    h1{
+        font-size: 28px;
+        font-weight: 900;
+    }
+    
+    h2{
+        font-size: 18px;
+    }
+    
+    h3{
+        font-size: 13px;
+    }
+    .button{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,24 @@
+.teams-bg{
+    background: url(../img/teams-bg.png) no-repeat;
+    padding: 65px 0;
+    background-size: cover;
+}
+
+.team__card img{
+    width: 100%;
+}
+
+.team__card_description{
+    border: 1px solid #78758c;
+    padding: 15px 0 20px 0;
+}
+
+.join-us{
+    margin: 65px 0 25px 0;
+}
+
+@media (max-width: 768px){
+    .team__card{
+        margin-bottom: 20px;
+    }
+}

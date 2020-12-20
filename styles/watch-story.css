@@ -1,0 +1,16 @@
+.watch-story-bg{
+    background: url(../img/watch-story-bg.jpg);
+    height: 550px;
+    background-size: cover;
+}
+.watch-story{
+    height: 100%;
+}
+.watch-story img{
+    cursor: pointer;
+}
+.watch-story h3{
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 30px;
+}
