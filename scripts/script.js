@@ -11,7 +11,7 @@ const createOurWork = (quantity) => {
         `
         return createOurWork(quantity - 1)
     }
-    return false
+    return quantity
 }
 
 const setWorkItemBg = (items, bg) => {

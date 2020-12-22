@@ -1,3 +1,14 @@
+@import './burger.css';
+@import './expertise.css';
+@import './footer.css';
+@import './good-news.css';
+@import './header.css';
+@import './our-story.css';
+@import './our-works.css';
+@import './people-say.css';
+@import './teams.css';
+@import './watch-story.css';
+
 *{
     margin: 0;
     padding: 0;
